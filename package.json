@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface (LIRI), is a command line node app, that takes in parameters and gives you back data.",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisPortilla/liri-node-app.git"
+  },
+  "author": "Cristian Portilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisPortilla/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/CrisPortilla/liri-node-app#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  }
+}
